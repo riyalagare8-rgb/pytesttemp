@@ -1,17 +1,14 @@
-import pytest_
-def employee_details (name,emp_id,department,salary);
-
-    result = (
-       f"Employee Name: {name}\n"
-       f"Employee ID: {emp_id}\n"
-       f"Department: {department}\n"
-       f"salary: {salary}"
- )
-
+def employee_details(name,emp_id,department,salary):
+    result=(
+        f"Employee Name:{name}\n"
+        f"Employee ID:{emp_id}\n"
+        f"Department:{department}\n"
+        f"Salary:{salary}"
+    )
     return result
-if __name__ == "___main___":
-    name = "Alice"
-    emp_id = "E1001"
-    departmant = "IT"
-    salary = 55000
-    print (employee - details (name,emp_id,department,salary))
+if __name__=="__main__":
+    name="alice"
+    emp_id="E1001"
+    department="IT"
+    salary=55000
+    print(employee_details(name,emp_id,department,salary))
